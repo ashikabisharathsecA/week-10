@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice Lab</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"> Website</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-4">Welcome to Our Website</h1>
+          <p class="lead">Explore our services and portfolio.</p>
+        </div>
+      </section>
+      <section id="services" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-laptop fa-3x mb-3"></i>
+                  <h4 class="card-title">Web Development</h4>
+                  <p class="card-text">I create responsive and user-friendly websites.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                  <h4 class="card-title">App Development</h4>
+                  <p class="card-text">We develop mobile applications for iOS and Android.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-chart-line fa-3x mb-3"></i>
+                  <h4 class="card-title">Digital Marketing</h4>
+                  <p class="card-text">We help your business grow with effective digital strategies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+      <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Portfolio</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="portfolio-1.jpg" alt="Portfolio Item">
+                <div class="card-body">
+                  <h5 class="card-title">Project One</h5>
+                  <p class="card-text">This is a description of Project One. It can contain details about the project, its goals, technologies used, etc.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Contact Us</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">MY NAME</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter the name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">MY EMAIL</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter the email address" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <textarea class="form-control" id="address" rows="5" placeholder="write address" required></textarea>
+            </div>
+            <div class="form-group"></div>
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="write message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+      <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+          <p>&copy; 2024 Our Company.</p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-botim"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
